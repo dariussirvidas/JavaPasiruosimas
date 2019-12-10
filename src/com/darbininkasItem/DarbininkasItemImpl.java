@@ -32,4 +32,9 @@ public class DarbininkasItemImpl implements DarbininkasItem {
     public double getDetalesKaina() {
         return detalesKaina;
     }
+
+    @Override
+    public String toString() {
+        return String.format("|%50s|%50s|%20d|%22.2f|", darbininkas, detale, detalesKiekis, detalesKaina);
+    }
 }

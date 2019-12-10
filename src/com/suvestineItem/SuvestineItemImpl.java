@@ -30,7 +30,7 @@ public class SuvestineItemImpl implements SuvestineItem, Comparable {
 
     @Override
     public String toString() {
-        return String.format("|%50s|%20d|%22f.2|", detale, pagamintasKiekis, suma);
+        return String.format("|%50s|%20d|%22.2f|", detale, pagamintasKiekis, suma);
     }
 
     @Override
